@@ -1,0 +1,45 @@
+p{
+    color: #FBAB7E;
+    font-size: 100px;
+    text-align: center;
+    margin: 2.5rem;
+    padding: 0;
+}
+h2{
+    font-size: 5rem;
+    margin-top: 10%;
+    text-align: center;
+    color: #8d5353;
+    margin-bottom: 0px;
+} 
+
+button{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #333232;
+    background: transparent;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#333232;
+    text-align:center;
+    transition: all 0.15s;
+    cursor: pointer;
+}
+button:hover{
+    color:#DDDDDD;
+    background-color:#333232;
+}
+button:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+}
+@media all and (max-width:30em){
+    button{
+        display:block;
+        margin:0.4em auto;
+    }
+}

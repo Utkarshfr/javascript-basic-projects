@@ -1,0 +1,119 @@
+input[type=text],input[type=email]{
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    margin: 20px;
+    padding-right: 10px;
+    display: inline;
+}
+
+input[type=text]:focus,input[type=email]:focus{
+    border-color: thistle;
+    outline: none;
+}
+input[type=number]{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    display: inline;
+}
+
+input[type=number]:focus{
+    border-color: thistle;
+    outline: none;
+}
+
+/* form.table,form.td,form.th{
+    width: max-content;
+    box-sizing: border-box;
+} */
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+.formbox{
+    background-color:rgb(181, 220, 181);
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(181, 220, 181);
+    padding-bottom: 30px;
+    max-width: max-content;
+}
+
+button{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    padding: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);   
+    border-color: black;
+    cursor: pointer;
+    transition: 500ms;
+    font-size: large;
+    outline: none;
+}
+
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    outline: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: gold;
+    transition: 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover{
+    color: red;
+}
+
+.databox{
+    margin: 1%;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(181, 220, 181);
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#newData,#newData th,#newData td {
+    border: 1px solid black;
+    margin: 0px;
+    border-style: solid;
+    border-collapse: collapse;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+p{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: large;
+	color: rgb(255,51,51);
+}

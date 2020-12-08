@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Crud App</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container formbox" style="margin: 1%; float: left;">
+        <form onsubmit="displayData();return false">
+			<p id="error-msg" style="text-align:center; display:none;">Fill the details</p>
+            <table class="centerbox">
+                <tr>
+                    <th><label for="name">Name</label></th>
+                    <td><input type="text" id="name" placeholder="Name" required></input></td>
+                </tr>
+                <tr>
+                    <th><label for="age">Age</label></th>
+                    <td><input type="number" id="age" placeholder="Age" min="1" required></input></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td><input type="email" id="email" placeholder="Email" required></input></td>
+                </tr>
+                <tr>
+                    <th><label for="country">Country</label></th>
+                    <td><input type="text" id="country" placeholder="Country" required></input></td>
+                </tr>
+            </table>
+            <div style="text-align: center;">
+                <button>submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div style="float: left;" class="databox">
+            <table id="newData">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Country</th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
